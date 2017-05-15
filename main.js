@@ -23,10 +23,10 @@ document.getElementById('clock').innerHTML = h + ":" + m + ":" + s;
    function fullScreen() {
      document.getElementById('fullScreenClock').style.fontSize = '250px';
      }
+
   function hideFullScreen() {
+     
      var clock = document.getElementById('clock');
-     var fullScreen = ;
-   document.getElementById('fullScreenClock').style.display = 'none';
-   document.getElementById('hideFullScreenClock').style.display = 'block';
+     
    clock.style.fontSize = '144px';
-   }
+  }
