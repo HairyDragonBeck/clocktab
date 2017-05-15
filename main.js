@@ -20,13 +20,3 @@ document.getElementById('clock').innerHTML = h + ":" + m + ":" + s;
    if (i < 10) {i = "0" + i};
      return i;
    }
-   function fullScreen() {
-     document.getElementById('fullScreenClock').style.fontSize = '250px';
-     }
-
-  function hideFullScreen() {
-     
-     var clock = document.getElementById('clock');
-     
-   clock.style.fontSize = '144px';
-  }
